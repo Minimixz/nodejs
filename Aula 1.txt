@@ -1,0 +1,34 @@
+Prompt 
+cd = entra
+cd.. = sai
+dir = diretorio
+cls = limpa a tela
+cd\ = volta para o inicio
+node e o nome do codigo = faz a leitura
+
+No bloco de notas não colocar .txt tem que estar em .js
+
+console.log
+
+IDE 
+
+Replit
+Codepen
+VisualCode
+
+string = caractere
+int = inteiro
+float = racional
+booleano = verdadeiro ou falso
+
+console.log("Hello! Word")
+
+console.log(5+2)
+console.log ("5"+"2")
+
+var idade = 38
+console.log ('A sau idade e:',idade)
+
+var
+let
+const
