@@ -1,0 +1,116 @@
+Aula 2
+
+Estrutura swich
+
+var numero = 0
+switch (numero){
+    case 0:
+        console.log ('caso 0')
+}
+
+var numero = 0
+switch (numero){
+    case 1:
+        console.log ('Segunda')
+        break
+    case 2:
+        console.log ('Terça')
+        break
+    case 3:
+        console.log ('Quarta')
+        break
+    case 4:
+        console.log ('Quinta')
+        break
+    case 5:
+        console.log ('Sexta')
+        break
+    case 6:
+        console.log ('Sabado')
+        break
+    case 7:
+        console.log ('Domingo')
+        break             
+    default:
+        console.log ('Nenhum Dia')
+}
+console.log ('Fim')
+
+
+par ou impar / if ou else
+
+var num = 25
+if (num % 2 === 0){
+    console.log ('par')
+  
+}
+else {
+    console.log('impar')
+}
+
+verdadeiro ou falso
+
+var num = 2
+
+if (num > 1 && num < 3){
+    console.log ('Veradeiro')
+}
+
+else{
+    console.log ('Falso')
+}
+
+var num = 2
+
+if (!(num > 1 && num < 3)){
+    console.log ('Veradeiro')
+}
+
+else{
+    console.log ('Falso')
+}
+
+var num = 5
+
+if (num >= 1 || num >= 3){
+    console.log ('Veradeiro')
+}
+
+else{
+    console.log ('Falso')
+}
+
+nota aluno
+
+var n1 = 5
+var n2 = 9
+
+var media = (n1+n2)/2
+
+if (media >=6){
+    console.log ('Nota: ',media, '\n Aprovado')
+}
+else if (media >=3 && media <6){
+    console.log ('Nota: ',media, ' \nRecuperação')
+}
+else {
+    console.log('Nota', media, '\nReprovado')
+}    
+
+segunda forma nora aluno
+
+var num = 4
+
+if (num > 7 && num < 10){
+    
+    console.log ('Foi', num,'Aprovado')
+}
+
+if (num >=5 && num <= 7){
+    console.log ('Foi', num, 'Aprovado')
+}
+
+
+else{
+    console.log ('Foi', num, 'Reprovado')
+}
