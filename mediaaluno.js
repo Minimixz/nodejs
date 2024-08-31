@@ -1,15 +1,15 @@
-var num = 4
+// primeira nota e segunda nota 
+var n1 = 5
+var n2 = 9
 
-if (num > 7 && num < 10){
-    
-    console.log ('Foi', num,'Aprovado')
+var media = (n1+n2)/2
+
+if (media >=6){
+    console.log ('Nota: ',media, '\n Aprovado')
 }
-
-if (num >=5 && num <= 7){
-    console.log ('Foi', num, 'Aprovado')
+else if (media >=3 && media <6){
+    console.log ('Nota: ',media, ' \nRecuperação')
 }
-
-
-else{
-    console.log ('Foi', num, 'Reprovado')
+else {
+    console.log('Nota', media, '\nReprovado')
 }
