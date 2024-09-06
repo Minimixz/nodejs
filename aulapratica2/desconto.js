@@ -1,29 +1,19 @@
-var preço = 250;
-var categoria = 3; 
+//variavel
+var produto = 500;
 
-var desconto;
-
-switch (categoria) {
-    case 1:
-        desconto = 10;
-        break;
-    case 2:
-        desconto = 20;
-        break;
-    case 3:
-        desconto = 30;
-        break;
-    case 4:
-        desconto = 40;
-        break;
-    default:
-        desconto = 0;
-        break;
+// Calcular o desconto com base no preço
+let desconto;
+if (produto <= 100) {
+    desconto = 5;
+} else if (produto <= 500) {
+    desconto = 10;
+} else {
+    desconto = 15;
 }
 
-var valorDesconto = (preço * desconto) / 100;
-var preçoComDesconto = preço - valorDesconto;
+// Calcular o valor do desconto e o preço final diretamente
+const valorDesconto = (produto * desconto) / 100;
+const precoFinal = produto - valorDesconto;
 
-console.log("Preço original: R$" + preço);
-console.log("Desconto aplicado: " + desconto + "%");
-console.log("Preço com desconto: R$" + preçoComDesconto.toFixed(2));
+// Exibir o resultado
+console.log("O valor do produto com desconto é:", precoFinal);
